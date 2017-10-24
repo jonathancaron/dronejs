@@ -1,0 +1,38 @@
+
+@keyframes animonde1 {
+  from {visibility: hidden;}
+  30% {visibility:hidden;}
+  50% {visibility:hidden;}
+  80% {visibility:visible;}
+  to {visibility: hidden;}
+}
+@keyframes animonde2 {
+  from {visibility: hidden;}
+  30% {visibility:hidden;}
+  50% {visibility:visible;}
+  80% {visibility:visible;}
+  to {visibility: hidden;}
+}
+@keyframes animonde3 {
+  from {visibility: hidden;}
+  30% {visibility:visible;}
+  50% {visibility:visible;}
+  80% {visibility:visible;}
+  to {visibility: hidden;}
+}
+
+
+.drone
+{
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    position:absolute;
+}
+
+  #onde1
+    {animation: animonde1 4s alternate infinite;}
+    #onde2
+      {animation: animonde2 4s alternate infinite;}
+      #onde3
+        {animation: animonde3 4s alternate infinite;}
